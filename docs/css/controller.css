@@ -87,6 +87,7 @@ div , h1, ::after, ::before{
 .text-pad{
   font-size: 12pt;
   color: #fff;
+  font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   background-color: #000;
   top: -5px;
