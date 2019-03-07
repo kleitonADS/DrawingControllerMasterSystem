@@ -9,35 +9,39 @@ body{
   background-color: #a91212;
 }
 
-div , h1, ::after, ::before{
+div , h1, ::after, ::before, section{
   position: absolute;
 }
 
+/* Css - Controller Master System II */
+
 .content-controller{
-  display: flex;
-  width: 70%;
-  height: auto;
-  justify-content: center;
-  margin: auto;
+  width: 1200px;
+  height: 600px;
+  left: 50%;
+  margin-left:-600px;
+  margin-top: 50px;
+  background-color: #2225252e;
 }
 
 .base-controller{
-  width: 520px;
-  height: 217px;
+  width: 465px;
+  height: 190px;
   background-color: #000;
-  top:35%;
-  left: auto;
+  top: 30%;
+  left: 50%;
+  margin-left: -210px;
   border-top: 2px solid #3331315c;
   border-right: 2px solid #3331315c;
   border-bottom: 2px solid #3331315c;
   border-radius: 12px;
-  box-shadow: 20px -30px #211f1f;
+  box-shadow: 13px -18px #211f1f;
   z-index: 1;
 }
 
 .side-left{
-  width: 30px;
-  height: 217px;
+  width: 22px;
+  height: 192px;
   background-color: #211f1f;
   top: 0px;
   left: 0px;
@@ -48,8 +52,8 @@ div , h1, ::after, ::before{
 }
 
 .right-top{
-  width: 276px;
-  height: 55px;
+  width: 248px;
+  height: 45px;
   background-color: #211f1f;
   top: 0px;
   right: 0px;
@@ -63,8 +67,8 @@ div , h1, ::after, ::before{
 }
 
 .right-bottom{
-  width: 280px;
-  height: 25px;
+  width: 255px;
+  height: 23px;
   background-color: #211f1f;
   right: 0px;
   bottom: 0px;
@@ -75,11 +79,11 @@ div , h1, ::after, ::before{
 }
 
 .border-red-pad{
-  width: 172px;
-  height: 177px;
-  left: 46px;
-  bottom: 20px;
-  border: 3px solid red;
+  width: 156px;
+  height: 163px;
+  left: 38px;
+  bottom: 12px;
+  border: 2px solid red;
   border-radius: 8px;
   z-index: 5;
 }
@@ -90,8 +94,8 @@ div , h1, ::after, ::before{
   font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   background-color: #000;
-  top: -5px;
-  left: 69px;
+  top: -8px;
+  left: 53px;
   padding-left: 8px;
   padding-right: 8px;
   z-index: 6;
@@ -99,12 +103,12 @@ div , h1, ::after, ::before{
 .background-gray-pad{
   width: 0px;
   height: 0px;
-  left: 55px;
-  bottom: 29px;
-  border-top: 83px solid #7594a6;
-  border-right:80px solid transparent;
-  border-left: 80px solid transparent; ;
-  border-bottom: 83px solid #7594a6;
+  left: 48px;
+  bottom: 21px;
+  border-top: 73px solid #7594a6;
+  border-right: 70px solid transparent;
+  border-left: 70px solid transparent;
+  border-bottom: 73px solid #7594a6;
   z-index: 7;
 }
 
@@ -112,47 +116,47 @@ div , h1, ::after, ::before{
   content: "";
   width: 0px;
   height: 27px;
-  left: -68px;
-  bottom: -78px;
-  border-top: 65px solid #7594a6;
-  border-right:68px solid transparent;
-  border-left: 65px solid transparent; ;
-  border-bottom: 65px solid #7594a6;
+  left: -60px;
+  bottom: -68px;
+  border-top: 55px solid #7594a6;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 55px solid #7594a6;
   transform: rotate(90deg);
 }
 
 .border-larger-pad{
-  width: 133px;
-  height: 135px;
+  width: 126px;
+  height: 130px;
   background-color: #000;
-  left: 67px;
-  bottom: 42px;
+  left: 55px;
+  bottom: 29px;
   border-radius: 50px;
   z-index: 8;
 }
 
 .border-smaller-pad{
-  width: 117px;
-  height: 119px;
+  width: 111px;
+  height: 118px;
   background-color: #201f1f;
-  left: 75px;
-  bottom: 50px;
+  left: 62px;
+  bottom: 35px;
   border-radius: 44px;
   border-left: 1px solid #fff;
   z-index: 9;
 }
 
 .border-smaller-pad:hover{
-  width: 114px;
-  height: 116px;
-  left: 76px;
+  width: 112px;
+  height: 117px;
+  left: 63px;
 }
 
 .circle-center-pad{
-  width: 45px;
-  height: 45px;
-  left: 111px;
-  bottom: 86px;
+  width: 40px;
+  height: 40px;
+  left: 98px;
+  bottom: 73px;
   border: 1px solid #3331315c;
   border-radius: 50%;
   z-index: 10;
@@ -161,61 +165,61 @@ div , h1, ::after, ::before{
 .arrow-white-top-pad{
   width: 0px;
   height: 0px;
-  top: 23px;
-  left: 130px;
-  border-top:7px solid transparent;
-  border-bottom: 7px solid #fff;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
+  top: 18px;
+  left: 112px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
   z-index: 11;
 }
 
 .arrow-white-bottom-pad{
   width: 0px;
   height: 0px;
-  bottom:  26px;
-  left: 130px;
-  border-top:7px solid #fff;
-  border-bottom: 7px solid transparent ;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
+  bottom:  16px;
+  left: 112px;
+  border-top:6px solid #fff;
+  border-bottom: 6px solid transparent ;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
   z-index: 12;
 }
 
 .arrow-white-right-pad{
   width: 0px;
   height: 0px;
-  bottom: 102px;
-  left: 203px;
-  border-top:7px solid transparent;
-  border-bottom: 7px solid transparent ;
-  border-left: 5px solid #fff;
-  border-right: 5px solid transparent ;
+  bottom: 89px;
+  left: 182px;
+  border-top:6px solid transparent;
+  border-bottom: 6px solid transparent ;
+  border-left: 4px solid #fff;
+  border-right: 4px solid transparent ;
   z-index: 13;
 }
 
 .arrow-white-left-pad{
   width: 0px;
   height: 0px;
-  bottom: 102px;
-  left: 55px;
-  border-top:7px solid transparent;
-  border-bottom: 7px solid transparent ;
-  border-left: 5px solid transparent ;
-  border-right: 5px solid #fff ;
+  bottom: 89px;
+  left: 46px;
+  border-top:6px solid transparent;
+  border-bottom: 6px solid transparent ;
+  border-left: 4px solid transparent ;
+  border-right: 4px solid #fff ;
   z-index: 14;
 }
 
 .cursor-black-lr-pad{
   width: 0px;
   height: 0px;
-  left: 84px;
-  bottom: 106px;
+  left: 70px;
+  bottom: 90px;
   border-top: 3px solid #000;
-  border-bottom: 3px solid #000 ;
-  border-left: 10px solid #000 ;
-  border-right: 10px solid #000 ;
-  border-radius:4px ;
+  border-bottom: 3px solid #000;
+  border-left: 10px solid #000;
+  border-right: 10px solid #000;
+  border-radius: 4px;
   z-index: 15;
 }
 
@@ -223,7 +227,7 @@ div , h1, ::after, ::before{
   content: "";
   width: 0px;
   height: 0px;
-  left: 71px;
+  left: 69px;
   bottom: -3px;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000 ;
@@ -236,8 +240,8 @@ div , h1, ::after, ::before{
 .cursor-black-tb-pad{
   width: 0px;
   height: 0px;
-  top: 57px;
-  left: 132px;
+  top: 45px;
+  left: 115px;
   border-top: 10px solid #000;
   border-bottom: 10px solid #000 ;
   border-left: 3px solid #000 ;
@@ -263,8 +267,8 @@ div , h1, ::after, ::before{
 .arrow-black-m-top-pad{
   width: 0px;
   height: 0px;
-  top: 66px;
-  left: 98px;
+  top: 54px;
+  left: 81px;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   border-top: 10px solid transparent;
@@ -291,8 +295,8 @@ div , h1, ::after, ::before{
 .arrow-black-m-bottom-pad{
   width: 0px;
   height: 0px;
-  top: 129px;
-  left: 96px;
+  top: 119px;
+  left: 81px;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   border-top: 10px solid transparent;
@@ -316,57 +320,48 @@ div , h1, ::after, ::before{
 }
 
 .background-gray-buttons{
-  width: 77px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   background-color: #7594a6;
-  right: 33px;
+  right: 24px;
   bottom: 41px;
-  z-index: 23;
 }
 
 .background-gray-buttons::before{
   content: "";
-  width: 77px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   background-color: #7594a6;
-  right: 85px;
+  right: 76px;
   bottom: 0px;
   z-index: 24;
 }
 
 .background-red-buttons{
-  width: 76px;
-  height: 17px;
+  width: 65px;
+  height: 15px;
   background-color: #a91212;
-  right: 33px;
-  bottom: 127px;
-  z-index: 25;
-}
-
-.background-red-buttons{
-  width: 76px;
-  height: 17px;
-  background-color: #a91212;
-  right: 33px;
-  bottom: 127px;
+  right: 25px;
+  bottom: 110px;
   z-index: 26;
 }
 
+
 .background-red-buttons::before{
   content: "";
-  width: 76px;
-  height: 17px;
+  width: 65px;
+  height: 15px;
   background-color: #a91212;
-  right: 85px;
+  right: 75px;
   bottom: 0px;
   z-index: 27;
 }
 
 .border-black-buttons{
-  width: 65px;
-  height: 65px;
-  bottom: 48px;
-  right: 124px;
+  width: 60px;
+  height: 60px;
+  bottom: 43px;
+  right: 103px;
   background-color: #000;
   z-index: 28;
   border-radius: 50%;
@@ -374,20 +369,20 @@ div , h1, ::after, ::before{
 
 .border-black-buttons::before{
   content: "";
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   bottom: 0px;
-  right: -85px;
+  right: -76px;
   background-color: #000;
   z-index: 29;
   border-radius: 50%;
 }
 
 .button-1{
-  width: 52px;
-  height: 52px;
-  right: 129px;
-  bottom: 55px;
+  width: 50px;
+  height: 50px;
+  right: 106px;
+  bottom: 48px;
   background-color: #201f1f;
   border-left: 2px solid #fff;
   border-radius: 50%;
@@ -395,15 +390,15 @@ div , h1, ::after, ::before{
 }
 
 .button-1:hover{
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
 }
 
 .button-2{
-  width: 52px;
-  height: 52px;
-  right: 44px;
-  bottom: 55px;
+  width: 50px;
+  height: 50px;
+  right: 31px;
+  bottom: 48px;
   background-color: #201f1f;
   border-left: 2px solid #fff;
   border-radius: 50%;
@@ -411,22 +406,22 @@ div , h1, ::after, ::before{
 }
 
 .button-2:hover{
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
 }
 
 .line-01{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:198px;
+  right: 169px;
   background-color: #615757;
   z-index: 32;
 }
 
 .line-01::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -435,7 +430,7 @@ div , h1, ::after, ::before{
 
 .line-01::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -444,16 +439,16 @@ div , h1, ::after, ::before{
 
 .line-02{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:213px;
+  right:184px;
   background-color: #615757;
   z-index: 33;
 }
 
 .line-02::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -461,7 +456,7 @@ div , h1, ::after, ::before{
 }
 .line-02::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -470,16 +465,16 @@ div , h1, ::after, ::before{
 
 .line-03{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:228px;
+  right:199px;
   background-color: #615757;
   z-index: 34;
 }
 
 .line-03::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -488,7 +483,7 @@ div , h1, ::after, ::before{
 
 .line-03::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -497,16 +492,16 @@ div , h1, ::after, ::before{
 
 .line-04{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:243px;
+  right: 214px;
   background-color: #615757;
   z-index: 35;
 }
 
 .line-04::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -515,7 +510,7 @@ div , h1, ::after, ::before{
 
 .line-04::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -524,16 +519,16 @@ div , h1, ::after, ::before{
 
 .line-05{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:258px;
+  right:229px;
   background-color: #615757;
   z-index: 36;
 }
 
 .line-05::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -542,7 +537,7 @@ div , h1, ::after, ::before{
 
 .line-05::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -551,16 +546,16 @@ div , h1, ::after, ::before{
 
 .line-06{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:273px;
+  right: 244px;
   background-color: #615757;
   z-index: 37;
 }
 
 .line-06::after{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:10px;
   background-color: #615757;
@@ -569,7 +564,7 @@ div , h1, ::after, ::before{
 
 .line-06::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -578,16 +573,16 @@ div , h1, ::after, ::before{
 
 .line-07{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 41px;
-  right:288px;
+  right: 259px;
   background-color: #615757;
   z-index: 38;
 }
 
 .line-07::before{
   width: 2px;
-  height: 80px;
+  height: 65px;
   bottom: 0px;
   right:5px;
   background-color: #615757;
@@ -596,76 +591,77 @@ div , h1, ::after, ::before{
 
 .logo-sega{
   font-family: 'sega-font';
-  font-size: 23px;
+  font-size: 20px;
   font-weight: lighter;
   color: #fff;
-  left:239px;
-  bottom: 55px;
+  left: 220px;
+  bottom: 47px;
   z-index: 39;
 }
 
 .text-button-01{
-  font-size: 11px;
+  font-size: 9px;
   color: #fff;
-  right: 125px;
-  top: 68px;
+  right: 106px;
+  top: 60px;
   z-index: 40;
 }
 
 .text-button-02{
-  font-size: 11px;
+  font-size: 9px;
   color: #fff;
-  right: 92px;
-  top: 68px;
+  right: 37px;
+  top: 60px;
   z-index: 41;
 }
 
 .left-top-base-controller{
   width: 0px;
   height: 0px;
-  top: -20px;
+  top: -11px;
   left: 8px;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid #040404;
-  border-right: 20px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #040404;
+  border-right: 10px solid transparent;
   transform: rotate(34deg);
 }
 
 .right-bottom-base-controller{
   width: 0px;
   height: 0px;
-  bottom: 8px;
-  right:-11px;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid #211f1f;
-  border-right: 20px solid transparent;
+  bottom: 30px;
+  right: -13px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #211f1f;
+  border-right: 100px solid transparent;
   transform: rotate(214deg);
 }
 
 .line-m-top-controller{
-  width: 513px;
+  width: 446px;
   height: 1px;
   background-color: #736e6e5c;
-  top: -17px;
+  top: -12px;
   left: 17px;
+
 }
 
 .line-right-controller{
   width: 1px;
-  height:206px;
+  height: 164px;
   background-color: #736e6e5c;
-  bottom:27px;
-  right: -11px;
+  bottom: 27px;
+  right: -8px;
 }
 
 .corner-rt-controller{
-  width: 35px;
+  width: 32px;
   height: 6px;
-  background-color:#736e6e5c;
-  top:-17px;
-  right:-25px;
+  background-color: #736e6e5c;
+  top: -8px;
+  right: -17px;
   transform: rotate(125deg);
 }
 
@@ -674,8 +670,8 @@ div , h1, ::after, ::before{
   height: 40px;
   border-top: 1px solid #000;
   border-left: 1px solid #000;
-  top: -175px;
-  left: -40px;
+  top: -210px;
+  right: 834px;
   z-index: 41;
 }
 
@@ -686,8 +682,8 @@ div , h1, ::after, ::before{
   height: 40px;
   border-top: 1px solid #000;
   border-right: 1px solid #000;
-  top: -2px;
-  right: -576px;
+  top: 0px;
+  right: -1200px;
   z-index: 42;
 }
 
@@ -696,8 +692,8 @@ div , h1, ::after, ::before{
   height: 40px;
   border-bottom:1px solid #000;
   border-left: 1px solid #000;
-  bottom: -175px;
-  left: -40px;
+  bottom: -250px;
+  left: -410px;
   z-index: 43;
 }
 
@@ -708,16 +704,17 @@ div , h1, ::after, ::before{
   border-bottom:1px solid #000;
   border-right:1px solid #000;
   bottom: -2px;
-  right:-576px;
+  right:-1200px;
   z-index: 44;
 }
 
 .name-controller{
+  width: 800px;
   font-family: 'sega-font';
   font-size: 41px;
   font-weight: lighter;
   color: #fff;
-  left: 51px;
-  bottom: -145px;
+  left: -115px;
+  bottom: -104px;
   z-index: 44;
 }
