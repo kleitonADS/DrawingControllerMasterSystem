@@ -15,13 +15,25 @@ div , h1, ::after, ::before, section{
 
 /* Css - Controller Master System II */
 
+.name-controller{
+  width: 100%;
+  display: flex;
+  font-family: 'sega-font';
+  font-size: 30px;
+  font-weight: lighter;
+  color: #fff;
+  justify-content: center;
+  z-index: 44;
+}
+
 .content-controller{
-  width: 1200px;
-  height: 600px;
-  left: 50%;
-  margin-left:-600px;
-  margin-top: 50px;
-  background-color: #2225252e;
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .base-controller{
@@ -708,13 +720,13 @@ div , h1, ::after, ::before, section{
   z-index: 44;
 }
 
-.name-controller{
-  width: 800px;
-  font-family: 'sega-font';
-  font-size: 41px;
-  font-weight: lighter;
-  color: #fff;
-  left: -115px;
-  bottom: -104px;
-  z-index: 44;
+
+
+.video{
+  display: flex;
+  justify-content: center;
+  top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
